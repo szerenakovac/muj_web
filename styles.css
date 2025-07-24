@@ -1,0 +1,19 @@
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Nebo specifičtější selektory */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+}
